@@ -1,0 +1,29 @@
+{
+  "name": "agenciaviajes-node",
+  "version": "1.0.0",
+  "description": "Primer Proyecto con Node.js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZunoRick/AgenciaViajes-Node.git"
+  },
+  "type": "module",
+  "author": "Ricardo Zuno",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZunoRick/AgenciaViajes-Node/issues"
+  },
+  "homepage": "https://github.com/ZunoRick/AgenciaViajes-Node#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.3.2",
+    "pug": "^3.0.2",
+    "sequelize": "^6.9.0",
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.13"
+  }
+}
